@@ -33,5 +33,23 @@
     <script type="text/javascript"src="js/get.js">
 
     </script>
+    <!-- service worker installation -->
+    <script type="text/javascript">
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register("js/sw.js")
+        .then (function(register){
+          register.addEventListener('update found',function(){
+            var installingsw=register.installing;
+            console.log("service worker is installed",installingsw);
+          });
+        })
+        .catch(function(e){
+          console.log("error");
+        });
+      }
+      else{
+        console.log("browser doesn't support");
+      }
+    </script>
   </body>
 </html>
