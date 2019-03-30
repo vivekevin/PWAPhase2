@@ -1,0 +1,64 @@
+body{
+  background: #EC7063  ;
+  text-align: center;
+}
+h1{
+  /* background: #FDFEFE; */
+}
+.Parent{
+  /* width: 100%; */
+  border: 2px solid #FDFEFE  ;
+  display: flex;
+  flex-wrap:wrap;
+}
+.career{
+  width:88%;
+  border: 2px solid black;
+  margin: 3%;
+  padding: 3%;
+  text-align: center;
+}
+.Details{
+  width:40%;
+  border: 2px solid black;
+  margin: 2%;
+  padding:1%;
+}
+.Education{
+  width:40%;
+  border: 2px solid black;
+  margin: 2%;
+  padding:1%;
+}
+.Intermediate{
+  width:40%;
+  border: 2px solid black;
+  margin: 2%;
+  padding:1%;
+}
+.Technical{
+  width:40%;
+  border: 2px solid black;
+  margin: 2%;
+  padding:1%;
+}
+.Skills{
+  width:40%;
+  border: 2px solid black;
+  padding:2%;
+  margin:1%;
+  /* text-align: center; */
+}
+#button{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 3px;
+  margin:5px;
+  border-radius: 35%;
+}
+input{
+  width:80%;
+  padding: 3px;
+  margin:3px;
+}
